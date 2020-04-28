@@ -8,5 +8,8 @@ class Home extends BaseController
 	}
 
 	//--------------------------------------------------------------------
-
+	public function test()
+	{
+		return view('test');
+	}
 }
